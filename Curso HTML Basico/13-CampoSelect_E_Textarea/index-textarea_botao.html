@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <title>Formulário Textarea< e Botão</title>
+        <meta charset="UTF-8">
+    </head>    
+    <body  style="background-color: #0452df">
+        <h2>Cadastrar Mensagem</h2>
+        <form>
+            <label>Mensagem</label>
+            <br><br>
+            <textarea name="msg" rows="9" cols="30" placeholder="Conteúdo da mensagem"></textarea>
+            
+            <!--Pode usar as duas formas, mas prefire a primeira-->
+            <input type="submit" value="Cadastrar">
+            <button type="submit">Cadastrar</button> <!--Botão para submeter o formulário -->
+            <!--O tipo submit é quem submete o formulário-->
+
+        </form>     
+        
+        <!-- Este botão não submete o formulário porque ele é somente clicável.-->
+        <button type="button" onclick="alert('Botão clicável')"></button>
+    </body>
+</html>
